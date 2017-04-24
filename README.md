@@ -15,9 +15,9 @@ arguments. The InputStreamReader, BufferedReader and PrintStream class objects a
 readLine() method is used to retrieve input from the server and PrintStream object's println() method is used to send output to the 
 server.
 # Process regarding Client Server Apllications:
-1 Create a Socket or ServerSocket object and open it over a specified port and IP address or host name.
-2 Instantiate InputStreamReader, BufferedReader and PrintStream objects to stream data to and from each socket.
-3 Read from and write to the stream between the sockets using their agreed upon protocol.
-4 Close the input and output streams.
-5 Close the Socket or ServerSocket objects.
+### 1 Create a Socket or ServerSocket object and open it over a specified port and IP address or host name.
+### 2 Instantiate InputStreamReader, BufferedReader and PrintStream objects to stream data to and from each socket.
+### 3 Read from and write to the stream between the sockets using their agreed upon protocol.
+### 4 Close the input and output streams.
+### 5 Close the Socket or ServerSocket objects.
 
